@@ -26,7 +26,7 @@ const case_names = [
 ] /**/
 
 // API Proxy to try and bypass the rate limitter. 
-const steam_API = 'http://api.vsim.xyz/steam/v1'
+const steam_API = 'https://api.vsim.xyz/steam/v1'
 
 /* Classes for Items and an array to store them in.*/
 class Items {
