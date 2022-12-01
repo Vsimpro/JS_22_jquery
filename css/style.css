@@ -101,3 +101,9 @@ a:hover {
     border-bottom: 0px solid black;    
 }
 
+@media all and (orientation:portrait) {
+    .col-sm-3 {
+        width: 25%;
+    }
+}
+
