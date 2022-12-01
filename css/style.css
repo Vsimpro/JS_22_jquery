@@ -1,0 +1,103 @@
+
+@font-face {
+    font-family: 'IBM';
+    src: url('/IBM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-size: 20px;
+}
+
+
+body {
+    color: white;
+    font-family: IBM;
+    background-color: rgb(33,33,33);
+}
+
+a {
+    color: orange;
+}
+
+a:hover {
+    color: green;
+}
+
+.main {
+    margin: 2%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    height: 650px;
+    overflow: scroll;
+}
+.topText {
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+.topBox {
+    width: 66%;
+    margin: 0;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 2%;
+    text-align: left;
+    font-size: x-large;
+    border-top: 2px solid darkgrey;
+    border-right: 2px solid darkgrey;
+    border-left: 3px solid rgb(61, 61, 61);
+    border-bottom: 3px solid rgb(61, 61, 61);
+    background-color: rgb(0, 140, 255);
+    box-shadow: -6px 6px 8px black;
+    text-shadow: 1px 2px 2px black;
+}
+
+
+.col-sm-3 {
+    text-align: right;
+    border-right: 1px solid black;
+    border-bottom: 1px dashed black;
+}
+
+.infobutton:hover {
+    color: white;
+    background-color: rgb(127, 63, 199);
+}
+
+.infobutton {
+    padding: 2px;
+    background-color: mediumslateblue;
+    box-shadow: 0px 1px 2px black;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.dataInfo {
+    border-left: 1px solid black;
+}
+
+.footer {
+    margin: 0;
+    margin-top: -1%;
+    padding-bottom: 5%;
+}
+
+#infobox {
+    display: none;
+}
+
+#examples {
+    border-bottom: 1px solid black;
+}
+
+#data {
+    box-shadow: -6px 6px 1px black;
+    border-radius: 4px;
+    background-color: rgb(66,66,66);
+    border: 2px solid rgb(111, 111, 111);
+    border-left: 2px solid black;   
+    border-bottom: 0px solid black;    
+}
+

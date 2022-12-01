@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale-1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+        <title> SteamyGlasses </title>
+    </head>
+    <body>
+        <div class="topBox"> 
+            <h1 class="topText"> SteamyGlasses </h1>
+            <p class="topText"> Prevent your glasses from steaming up, follow the Steam market for CS:GO cases in detail here!<br>
+                <span class="infobutton">read more</span></p>            
+                <p class="topText" id="infobox"> The data shown above is today's data for all of the <i> CS:GO Cases </i>
+                listed in <i> Steam Market.</i> The data is updated daily via  their 
+                <a target="_blank" href="https://steamcommunity.com/market/search/render/?appid=730&norender=1&count=500">api</a>
+                The data above can be used to track investments, ponder why pixels are priced so high, 
+                or make informed decision on which one of the cases you should buy to gamble with. <br>
+                <br>
+                This page has been made as a part of "Building dynamic web applications with Javascript" 
+                and aim's to teach the builder (<a target="_blank" href="https://vsim.xyz">me</a>)
+                about jQuery.</p>
+        </div>
+        <div class="main">
+            <div class="row mainrow">    
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-8" id="data">
+                    <p> Steam ratelimit's it's API calls.
+                        If you see "null" or "NaN" 
+                        you might be able to resolve it by refreshing the page. </p>
+                    <div class="row" id="examples">
+                        <div class="col-sm-3">
+                            Item
+                        </div>
+                        <div class="col-sm-3">
+                            Price
+                        </div>
+                        <div class="col-sm-3">
+                            Volume listed
+                        </div>
+                        <div class="col-sm-3">
+                            Market Cap (€)
+                        </div>
+                    </div>
+                    <!-- <div class="row" id="cards"> </div> -->
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+    </body>
+</html>    
+
+<script src="/js/jquery.js  "></script>
+<script src="/js/script.js"></script>
