@@ -12,7 +12,7 @@ Open file location in browser
 or click the links below
 
 Links;
-- Netlify; TODO
+- Netlify; https://js-vilsim-22-jquery.netlify.app/
 - Selfhosting; TODO
 
 
